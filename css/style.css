@@ -1,4 +1,6 @@
-
+/*
+	Website styles
+*/
 @font-face {
   font-family: 'Droid Sans';
   font-style: normal;
@@ -16,9 +18,6 @@ h1{
 a {
 	color: #1F5383;
 }
-.op5{
-	opacity: 0.5;
-}
 .center{
 	margin-right: auto;
 	margin-left: auto;
@@ -28,11 +27,15 @@ a {
 }
 .icons{
 	list-style: none;
-	width: 170px;
+	width: 364px;
 	margin: 0 auto;
 	padding: 0px;
 }
-.icons>li{}
+.icons>li{
+	float: left;
+	margin: 10px;
+
+}
 .footer{
 	top: 50px;
 	clear:left;
@@ -55,6 +58,12 @@ a {
    padding: 15px;
 
 }
+
+
+
+/*
+	Calendar icon styles
+*/
 .calendaricon{
 	width: 150px;
 	box-shadow: 1px 1px #ffffff, 2px 2px #ffffff, 3px 3px #ffffff, 4px 4px #ffffff;
@@ -137,3 +146,118 @@ div.calDown::after{
 	top: -4.1px;
 	position: absolute;
 }
+
+
+/*
+	Panel icon styles
+*/
+
+
+.circlePanel {
+	border-radius: 50%;
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	top: 2px;
+	left: 5px;
+	float: left;
+	background: rgb(141, 141, 141);
+	position: relative;
+	z-index: 1;
+}
+
+.movieicon{
+	width: 150px;
+	box-shadow: 1px 1px #000000, 2px 2px #000000, 3px 3px #000000, 4px 4px #000000;
+	height: 150px;
+	border: 6px solid #727272;
+	border-radius: 4px 4px 15px 15px;
+	background: #FFFFFF;
+}
+.movieicon table{
+margin-top: -29px;
+color: white;
+z-index: 100;
+top: 51px;
+position: relative;
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+}
+.movieicon td{
+	border: 1px solid white;
+	padding: 0px;
+	font-size: 12px;
+	line-height: 12px;
+}
+.panelBody{}
+.panelBody::before{
+display: block;
+width: 100%;
+height: 40px;
+background-color: #000000;
+content: "";
+top: 11px;
+position: relative;
+border-top: 1px solid rgba(145, 143, 143, 0.69);
+border-bottom: 2px solid rgba(145, 143, 143, 0.69);
+}
+.panelBody::after{
+	display: block;
+	width: 100%;
+	height: 40px;
+	background-color: #000000;
+	content: "";
+	top: -22px;
+	position: relative;
+	border-top: 2px solid rgba(145, 143, 143, 0.69);
+	border-bottom-left-radius: 9px;
+	border-bottom-right-radius: 9px;
+}
+.panelBody>p{
+	line-height: 25px;
+	margin-top: 10px;
+	padding: 5px 0px 5px 0px;
+}
+.panelBody>p::before{
+	display: block;
+	width: 100%;
+	height: 1px;
+	background-color: #000000;
+	content: "";
+	top: 22px;
+	opacity: .2;
+	position: relative;
+}
+
+.panelBody>p::after{
+	display: block;
+	width: 100%;
+	height: 1px;
+	background-color: #000000;
+	content: "";
+	top: -6px;
+	opacity: .2;
+	position: relative;
+}
+.panelHeader{
+	height: 0.1px;
+}
+.panelHeader::before{
+	display: block;
+	width: 100%;
+	height: inherit;
+	content: "";
+	position: relative;
+	border-top: 6px dotted black;
+	border-bottom: 1px solid rgba(156, 156, 156, 0.91);
+}
+.panelHeader::after{
+	display: block;
+	width: 100%;
+	height: inherit;
+	content: "";
+	position: relative;
+	border-top: 6px dotted black;
+}
+
