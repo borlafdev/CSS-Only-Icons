@@ -188,7 +188,7 @@ margin-right: auto;
 	border: 1px solid white;
 	padding: 0px;
 	font-size: 12px;
-	line-height: 12px;
+	line-height: 11px;
 }
 .panelBody{}
 .panelBody::before{
