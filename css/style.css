@@ -1,3 +1,11 @@
+
+@font-face {
+  font-family: 'Droid Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Droid Sans'), local('DroidSans'), url(../fonts/droidSans.woff) format('woff');
+}
+
 body{
 	font: 100%/1.5em "Droid Sans", sans-serif;
 	background:#9cddda;
@@ -6,7 +14,7 @@ h1{
 	font-size: 6em;
 }
 a {
-	color: #00B4CC;
+	color: #1F5383;
 }
 .op5{
 	opacity: 0.5;
@@ -20,11 +28,33 @@ a {
 }
 .icons{
 	list-style: none;
-	width: 150px;
+	width: 170px;
 	margin: 0 auto;
 	padding: 0px;
 }
 .icons>li{}
+.footer{
+	top: 50px;
+	clear:left;
+   float:left;
+   list-style:none;
+   margin:0;
+   padding:0;
+   position:relative;
+   left:50%;
+   text-align:center;
+}
+.footer>li{
+   display:block;
+   float:left;
+   list-style:none;
+   margin:0;
+   padding:0;
+   position:relative;
+   right:50%;
+   padding: 15px;
+
+}
 .calendaricon{
 	width: 150px;
 	box-shadow: 1px 1px #ffffff, 2px 2px #ffffff, 3px 3px #ffffff, 4px 4px #ffffff;
