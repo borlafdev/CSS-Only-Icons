@@ -27,7 +27,7 @@ a {
 }
 .icons{
 	list-style: none;
-	width: 364px;
+	width: 546px;
 	margin: 0 auto;
 	padding: 0px;
 }
@@ -260,4 +260,115 @@ border-bottom: 2px solid rgba(145, 143, 143, 0.69);
 	position: relative;
 	border-top: 6px dotted black;
 }
+
+/*
+	Notes icon
+*/
+
+.notesicon{
+		width: 150px;
+	box-shadow: 1px 1px #5A371B, 2px 2px #5A371B, 3px 3px #5A371B, 4px 4px #5A371B;
+	height: 150px;
+	border: 6px solid #996944;
+	border-radius: 15px;
+	background: #B3A777;
+}
+
+.notesLeft{
+width: 43.5%;
+float: left;
+font-size: 8px;
+line-height: 10px;
+padding: 3.5px;
+background: #F3ECCE;
+overflow: hidden;
+max-height: 143px;
+border-top-left-radius: 7px;
+border-bottom-left-radius: 7px;
+position: relative;
+left: 3px;
+box-shadow: -1.5px 0px #F3E29E;
+}
+.notesLeft>p{
+	padding-top:37px; 
+}
+.notesRight{
+width: 43.5%;
+float: left;
+font-size: 8px;
+line-height: 10px;
+padding: 4px;
+padding-top: 0px;
+background: #F3ECCE;
+overflow: hidden;
+max-height: 146px;
+border-top-right-radius: 7px;
+border-bottom-right-radius: 7px;
+left: .5px;
+position: relative;
+border-left: solid 1px rgb(218, 218, 172);
+box-shadow: 1.5px 0px #F3E29E;
+}
+
+
+
+.circle{
+	border-radius: 50%;
+	position: relative;
+}
+
+.circle1{
+	width: 10px;
+	height: 10px;
+	background: rgba(78, 78, 78, 0.5);
+	top: 0px;
+	left: 25px;
+	border: .7px dotted rgb(49, 49, 49);
+	margin-bottom: -20px;
+}
+
+
+.circle2{
+	width: 20px;
+	height: 20px;
+	background: rgba(78, 78, 78, 0.5);
+	top: 20px;
+	left: 6px;
+	border: .7px dashed rgb(49, 49, 49);
+	margin-bottom: -20px;
+}
+.circle3{
+	width: 15px;
+height: 15px;
+background: rgba(78, 78, 78, 0.5);
+top: 14px;
+left: 42px;
+border: .7px solid rgb(49, 49, 49);
+margin-bottom: -10px;
+}
+
+.arrow-bottom{
+	width: 0;
+	height: 0;
+	border-left: 4px solid transparent;
+	border-right: 4px solid transparent;
+	border-top: 5px solid #f5675a;
+	margin-top: 10px;
+	margin-bottom: -10px;
+	left: 8px;
+	position: relative;
+}
+.arrow-bottom::before{
+	display: block;
+	width: 8px;
+	height: 14.5px;
+	content: "";
+	position: relative;
+	background: #f5675a;
+	top: -19px;
+	left: -4px;
+    
+}
+
+
 
