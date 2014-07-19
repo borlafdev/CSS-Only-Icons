@@ -446,3 +446,66 @@ margin-bottom: -10px;
     opacity: .8;
 }
 
+/*
+ *  Terminal icon
+ */
+.terminalicon{
+    width: 150px;
+    box-shadow: 1px 1px #EBEBEB, 2px 2px #EBEBEB, 3px 3px #EBEBEB, 4px 4px #EBEBEB;
+    height: 150px;
+    border: 6px solid #FFFFFF;
+    border-radius: 16px 16px 15px 15px;
+    background: #000000;
+    overflow: hidden;
+}
+.terminalHeader{
+    height: 15px;
+    background: #fff;
+    background: rgba(255, 255, 255, 0.88);
+    border-top-left-radius: 9px;
+    border: 1px solid #B9B9B9;
+    border-top-right-radius: 9px;
+}
+
+.close{
+    width: 5px;
+top: 5px;
+height: 5px;
+left: 5px;
+background: #F33E3E;
+}
+.hide{
+    width: 5px;
+height: 5px;
+left: 15px;
+background: #F3C83E;
+}
+.max{
+    width: 5px;
+top: -5px;
+height: 5px;
+left: 25px;
+background: #3EF34C;
+}
+
+.terminalBody>p{
+font-size: 4px;
+line-height: 5.5px;
+color: rgba(120, 231, 120, 0.79);
+text-align: left;
+padding: 5px;
+padding-top: 0px;
+}
+.terminalBody::after{
+    content: "";
+background: rgba(120, 231, 120, 0.79);
+height: 3px;
+width: .5px;
+position: relative;
+padding: 1px;
+float: left;
+top: -9px;
+left: 5px;
+opacity: .8;
+}
+
